@@ -5,15 +5,15 @@ import dotenv from "dotenv"
 // import mongoose from "mongoose";
 // import { DB_NAME } from "./constants.js";
 import connectdb from "./db/index.js";
-// import {app} from "./app.js"
+import {app} from "./app.js"
 
 dotenv.config({
     path: "./env"
 })
 
-connectdb();
+// connectdb();
 
-/*
+
 connectdb().then(()=>{
   app.on("error",(error)=>{
     console.log("ERROR : ", error);
@@ -30,7 +30,7 @@ connectdb().then(()=>{
 })
 
 
-*/
+
 
 
 
